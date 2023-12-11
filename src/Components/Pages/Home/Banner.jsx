@@ -3,7 +3,7 @@ import Title from '../../Title';
 
 const Banner = () => {
     return (
-        <div className=''>
+        <div>
             <div className='flex justify-between h-[80vh] items-center'>
                 <div className='w-1/2'>
                     <Title title={'I\'m Coder Rahim'} />

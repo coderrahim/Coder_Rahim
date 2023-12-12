@@ -13,12 +13,12 @@ import Title from '../../Title'
 const Skills = () => {
     return (
         <div className='py-12'>
-            {/* <Title title={'SKILLS'} /> */}
+            <Title title={'SKILLS'} />
             <div>
-                <h2 className='bg-pink-300 text-3xl font-semibold py-4 text-center rounded-full my-5'>Technical Knowledge</h2>
+                <h2 className='bg-pink-300 inline-block px-10 mx-auto text-3xl font-semibold py-4 text-center rounded-full my-5'>Technical Knowledge</h2>
                 <div className='flex justify-evenly'>
                     <div>
-                        <div className='flex gap-5 justify-center items-center my-5 shadow  rounded-full min-w-full px-10 px-10 md:px-20 py-3'>
+                        <div className='flex gap-5 justify-center items-center my-5 shadow  rounded-full min-w-full  px-10 md:px-20 py-3'>
                             <img className='w-8 md:w-16 rounded-md' src={html} alt="" />
                             <h3 className='text md:text-2xl font-medium text-pink-500'>HTML</h3>
                         </div>
@@ -65,7 +65,7 @@ const Skills = () => {
             </div>
             {/* Education */}
             <div>
-                <h2 className='bg-pink-300 text-3xl font-semibold py-4 text-center rounded-full my-5'>Educational Background</h2>
+                <h2 className='bg-pink-300 text-3xl font-semibold py-4 inline-block mt-10 px-10 mx-auto text-center rounded-full my-5'>Educational Background</h2>
 
                 <div className='md:flex justify-between '>
                     <div className='space-y-3 border-l-4 px-3 m-5 text-2xl md:text-3xl font-semibold shadow-md p-5 rounded-xl '>

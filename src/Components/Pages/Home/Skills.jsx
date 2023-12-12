@@ -12,7 +12,7 @@ import Title from '../../Title'
 
 const Skills = () => {
     return (
-        <div className='py-12'>
+        <div id='skills' className='py-12'>
             <Title title={'SKILLS'} />
             <div>
                 <h2 className='bg-pink-300 inline-block px-10 mx-auto text-3xl font-semibold py-4 text-center rounded-full my-5'>Technical Knowledge</h2>
